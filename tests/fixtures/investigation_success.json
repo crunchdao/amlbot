@@ -1,0 +1,60 @@
+{
+  "result": true,
+  "balance": 10,
+  "amlFlow": "fast",
+  "discount": 5,
+  "discountDueTime": 0,
+  "promoFlow": false,
+  "data": {
+    "indirects": {
+      "connections": [
+        {"entity": {"name": "Rewards/Fees", "type": "rewards_fees"}, "received": {"direct": 0, "hops": null, "total": 0}, "sent": {"direct": 3160415.266701, "hops": 1, "total": 3160415.266701}},
+        {"entity": {"id": 109756209, "name": "ChangeNOW", "riskscore": 0.6, "slug": "ChangeNOW", "subtype": null, "type": "exchange_unlicensed"}, "received": {"direct": 39119215610, "hops": 1, "total": 39119215610}, "sent": {"direct": 0, "hops": 2, "total": 4100000000}},
+        {"entity": {"id": 71505737, "name": "Sideshift", "riskscore": 0.6, "slug": "Sideshift", "subtype": null, "type": "exchange_unlicensed"}, "received": {"direct": 25662511210, "hops": 1, "total": 25662511210}, "sent": {"direct": 0, "hops": null, "total": 0}},
+        {"entity": {"id": 69338373, "name": "Binance", "riskscore": 0.1, "slug": "Binance", "subtype": null, "type": "exchange_licensed"}, "received": {"direct": 39333243650, "hops": 1, "total": 39333243650}, "sent": {"direct": 0, "hops": null, "total": 0}},
+        {"entity": {"name": "Settled", "type": "settled"}, "received": {"hops": null, "total": 0}, "sent": {"hops": null, "total": 50000000}},
+        {"entity": {"id": 62850027, "name": "FixedFloat", "riskscore": 0.6, "slug": "FixedFloat", "subtype": null, "type": "exchange_unlicensed"}, "received": {"hops": null, "total": 0}, "sent": {"hops": 2, "total": 24910000000}},
+        {"entity": {"name": "Unnamed Entities", "type": "unnamed"}, "received": {"hops": null, "total": 0}, "sent": {"hops": null, "total": 20014660}}
+      ],
+      "debug": null
+    },
+    "baseData": {
+      "riskscore": 0.432,
+      "signals": {"atm": 0, "child_exploitation": 0, "dark_market": 0, "dark_service": 0, "enforcement_action": 0, "exchange_fraudulent": 0, "gambling": 0, "illegal_service": 0, "liquidity_pools": 0, "marketplace": 0, "miner": 0, "mixer": 0, "other": 0, "payment": 0, "ransom": 0, "sanctions": 0, "scam": 0, "seized_assets": 0, "stolen_coins": 0, "terrorism_financing": 0, "wallet": 0, "exchange": 0.336, "risky_exchange": 0.663, "p2p_exchange": 0, "p2p_exchange_mlrisk_high": 0, "exchange_mlrisk_high": 0, "exchange_mlrisk_low": 0, "exchange_mlrisk_moderate": 0, "exchange_mlrisk_veryhigh": 0, "p2p_exchange_mlrisk_low": 0, "fraud_shop": 0, "illicit_actor_org": 0, "high_risk_jurisdiction": 0, "infrastructure_as_a_service": 0, "lending_contract": 0, "decentralized_exchange_contract": 0, "smart_contract": 0, "token_smart_contract": 0, "protocol_privacy": 0, "merchant_services": 0, "ico": 0, "unnamed_service": 0, "special_measures": 0},
+      "updated_at": 1681293798,
+      "address": "0x2505c6a5eb35983c158f42e66b62697f5fc86452",
+      "amount": null,
+      "risky_volume": null,
+      "risky_volume_usd": null,
+      "risky_volume_fiat": null,
+      "fiat_code_effective": "usd",
+      "counterparty": {"address": "0x2505c6a5eb35983c158f42e66b62697f5fc86452"},
+      "reportedAddressBalance": null,
+      "blackListsConnections": false
+    },
+    "sourceData": [],
+    "riskscore": 0.432,
+    "counterparty": {
+      "address": "0x2505c6a5eb35983c158f42e66b62697f5fc86452",
+      "received_fiat_amount": 32070888.319611467,
+      "sent_fiat_amount": 32048667.1279586,
+      "signals": {
+        "in": {"exchange": 0.026, "risky_exchange": 0.002, "p2p_exchange": 0, "p2p_exchange_mlrisk_high": 0, "exchange_mlrisk_high": 0, "exchange_mlrisk_low": 0, "exchange_mlrisk_moderate": 0, "exchange_mlrisk_veryhigh": 0, "p2p_exchange_mlrisk_low": 0, "enforcement_action": 0, "atm": 0, "child_exploitation": 0, "dark_market": 0, "dark_service": 0, "exchange_fraudulent": 0, "gambling": 0, "illegal_service": 0, "liquidity_pools": 0, "marketplace": 0, "miner": 0, "mixer": 0, "other": 0, "payment": 0, "ransom": 0, "sanctions": 0.971, "scam": 0, "seized_assets": 0, "stolen_coins": 0, "terrorism_financing": 0, "wallet": 0, "fraud_shop": 0, "illicit_actor_org": 0, "high_risk_jurisdiction": 0, "infrastructure_as_a_service": 0, "lending_contract": 0, "decentralized_exchange_contract": 0, "smart_contract": 0, "token_smart_contract": 0, "protocol_privacy": 0, "merchant_services": 0, "ico": 0, "unnamed_service": 0, "special_measures": 0, "online_pharmacy": 0, "bridge": 0, "malware": 0, "nft_platform_collection": 0},
+        "out": {"exchange": 0.811, "risky_exchange": 0.144, "p2p_exchange": 0, "p2p_exchange_mlrisk_high": 0.007, "exchange_mlrisk_high": 0, "exchange_mlrisk_low": 0, "exchange_mlrisk_moderate": 0, "exchange_mlrisk_veryhigh": 0, "p2p_exchange_mlrisk_low": 0, "enforcement_action": 0.002, "atm": 0, "child_exploitation": 0, "dark_market": 0, "dark_service": 0, "exchange_fraudulent": 0, "gambling": 0, "illegal_service": 0, "liquidity_pools": 0, "marketplace": 0, "miner": 0, "mixer": 0, "other": 0.008, "payment": 0.002, "ransom": 0, "sanctions": 0.013, "scam": 0.001, "seized_assets": 0, "stolen_coins": 0, "terrorism_financing": 0, "wallet": 0.008, "fraud_shop": 0, "illicit_actor_org": 0, "high_risk_jurisdiction": 0, "infrastructure_as_a_service": 0, "lending_contract": 0, "decentralized_exchange_contract": 0, "smart_contract": 0, "token_smart_contract": 0, "protocol_privacy": 0, "merchant_services": 0, "ico": 0, "unnamed_service": 0, "special_measures": 0, "online_pharmacy": 0, "bridge": 0, "malware": 0, "nft_platform_collection": 0}
+      }
+    },
+    "asset": "ETH",
+    "address": "0x2505C6A5eb35983C158f42e66B62697f5Fc86452",
+    "identifier": "643681E610692155724221:E1388F576668E67",
+    "xlsReport": "https://extrnlapiendpoint.silencatech.com/response/userdata/97DE76A58CA3E53/renderer/xls/responsedata/643681E610692155724221:E1388F576668E67",
+    "investigationLink": "https://web.amlbot.com/aml/response/82FCF70CF5C6CB9/643681E610692155724221:E1388F576668E67",
+    "stats": {"connections": 8, "clusters": 7, "directs": 4, "indirects": 4},
+    "uid": "643681e610692155724221",
+    "network": "ETH",
+    "status": "success",
+    "timestamp": "2023-04-12 10:03:18",
+    "flow": "fast",
+    "_type": 10,
+    "cost": 5
+  }
+}

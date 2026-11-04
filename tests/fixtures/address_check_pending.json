@@ -1,0 +1,20 @@
+{
+  "result": true,
+  "balance": 34,
+  "amlFlow": "fast",
+  "termsConfirmRequired": false,
+  "discount": 0,
+  "discountDueTime": 0,
+  "promoFlow": false,
+  "data": {
+    "updated_at": 1704811339,
+    "address": "0x03e6fa590cadcf15a38e86158e9b3d06ff3399ba",
+    "uid": "63a9cca8caf27101299147",
+    "asset": "ETH",
+    "network": "ARB",
+    "status": "pending",
+    "timestamp": "2024-01-09 14:42:19",
+    "flow": "fast",
+    "_type": 9
+  }
+}

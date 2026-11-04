@@ -1,0 +1,11 @@
+{
+  "result": true,
+  "coins": {"0": "ETC", "1": "ETH", "3": "BTC", "4": "TetherOMNI", "5": "LTC", "6": "BCH", "7": "BSV", "8": "XRP", "9": "TRX", "10": "BSC", "11": "BASE", "12": "MATIC", "13": "DOGE", "14": "ZEC", "15": "ADA", "16": "SOL", "17": "ALGO", "18": "DOT", "19": "AVAX", "20": "ARB", "21": "XLM", "22": "TON", "23": "NEAR", "24": "XTZ", "25": "OP"},
+  "limitedCoins": {"0": "ZEC", "1": "SOL", "2": "BSV", "5": "DOGE", "6": "DOT", "7": "AVAX", "8": "TON", "9": "NEAR", "10": "XTZ"},
+  "coinsPrecisionRates": {"ETC": 1.0e-9, "ETH": 1.0e-9, "BTC": 1.0e-8, "TetherOMNI": 1.0e-8, "LTC": 1.0e-8, "BCH": 1.0e-8, "BSV": 1.0e-8, "XRP": 1.0e-6, "TRX": 1.0e-6, "BSC": 1.0e-9, "BASE": 1.0e-18, "MATIC": 1.0e-18, "DOGE": 1.0e-8, "ZEC": 1.0e-8, "ADA": 1.0e-6, "SOL": 1.0e-9, "ALGO": 1.0e-6, "DOT": 1.0e-10, "AVAX": 1.0e-18, "ARB": 1.0e-18, "XLM": 1.0e-7, "TON": 1.0e-9, "NEAR": 1.0e-24, "XTZ": 1.0e-6, "OP": 1.0e-18},
+  "modesAssets": {
+    "advanced": ["ETC", "ETH", "BTC", "TetherOMNI", "LTC", "BCH", "BSV", "XRP", "TRX", "BSC", "BASE", "MATIC", "DOGE", "ZEC", "ADA", "SOL", "ALGO", "DOT", "AVAX", "ARB", "XLM", "TON", "NEAR", "XTZ", "OP"],
+    "fast": ["ETC", "ETH", "BTC", "TetherOMNI", "LTC", "BCH", "BSV", "XRP", "TRX", "BSC", "BASE", "MATIC", "DOGE", "ZEC", "ADA", "SOL", "ALGO", "DOT", "AVAX", "ARB", "XLM", "TON", "NEAR", "XTZ", "OP"],
+    "lite": ["ETH", "BTC", "TRX", "BSC", "BASE", "MATIC", "AVAX", "ARB", "OP", "SOL"]
+  }
+}

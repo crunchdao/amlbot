@@ -1,0 +1,26 @@
+{
+  "check": "df39d032a13b618375299d727343a789ed6cd7259fce98c1cfab2fd36d98a0c1",
+  "tonce": "1711294872",
+  "payload": {
+    "riskscore": 0.23,
+    "signals": {"atm": 0, "child_exploitation": 0, "dark_market": 0, "dark_service": 0, "enforcement_action": 0, "exchange_fraudulent": 0, "gambling": 0, "illegal_service": 0, "liquidity_pools": 0.004, "marketplace": 0.009, "miner": 0, "mixer": 0, "other": 0.077, "payment": 0, "ransom": 0, "sanctions": 0, "scam": 0, "seized_assets": 0, "stolen_coins": 0, "terrorism_financing": 0, "wallet": 0.024, "exchange": 0.772, "risky_exchange": 0.012, "p2p_exchange": 0, "p2p_exchange_mlrisk_high": 0.1, "exchange_mlrisk_high": 0, "exchange_mlrisk_low": 0, "exchange_mlrisk_moderate": 0, "exchange_mlrisk_veryhigh": 0, "p2p_exchange_mlrisk_low": 0, "fraud_shop": 0, "illicit_actor_org": 0, "high_risk_jurisdiction": 0, "infrastructure_as_a_service": 0, "lending_contract": 0, "decentralized_exchange_contract": 0, "smart_contract": 0, "token_smart_contract": 0, "protocol_privacy": 0, "merchant_services": 0, "ico": 0, "unnamed_service": 0, "special_measures": 0, "online_pharmacy": 0, "bridge": 0, "malware": 0, "nft_platform_collection": 0},
+    "updated_at": 1711294871,
+    "address": "0x9a957fc094ca12f15b85e7d0533a3e91732adf20",
+    "fiat_code_effective": "usd",
+    "counterparty": {"address": "0x9a957fc094ca12f15b85e7d0533a3e91732adf20"},
+    "reportedAddressBalance": null,
+    "addressDetailsData": null,
+    "blackListsConnections": false,
+    "hasBlackListFlag": false,
+    "pdfReport": "#",
+    "memo": null,
+    "uid": null,
+    "asset": "ETH",
+    "network": "ETH",
+    "status": 10,
+    "timestamp": "2024-03-24 15:41:12",
+    "flow": "fast",
+    "_type": 9,
+    "cost": 0
+  }
+}

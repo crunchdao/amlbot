@@ -1,0 +1,38 @@
+{
+  "amlFlow": "lite",
+  "balance": 199,
+  "data": {
+    "_type": 7,
+    "address": "TXQUN4zzbAaDebFG5XDnFuFHw5daNBLVai",
+    "amount": 545770000,
+    "asset": "TRX",
+    "blackListsConnections": false,
+    "confirmed_at": null,
+    "cost": 1,
+    "customerIsB2B": true,
+    "direction": "deposit",
+    "extras": {
+      "services": {"use_platform": ["PARiBU", "Gate", "MEXC", "bitget", "Binance"]},
+      "tags": ["paribu.com", "deposit"]
+    },
+    "flow": "lite",
+    "hasBlackListFlag": false,
+    "hasHighRisk": false,
+    "memo": "",
+    "network": "TRX",
+    "pdfReport": "#",
+    "risk_score_level": "low",
+    "signalTags": ["exchange"],
+    "status": "success",
+    "timestamp": "2026-03-31 07:48:40",
+    "tx": "dd49020da4fb2321122ad993ea9732a6cd2a39af02b240eee28192b19e8a172e",
+    "uid": "69cb7c587aff0474444441",
+    "updated_at": 1774943379
+  },
+  "discount": 0,
+  "discountDueTime": 0,
+  "proMode": "0",
+  "promoFlow": false,
+  "result": true,
+  "termsConfirmRequired": false
+}
