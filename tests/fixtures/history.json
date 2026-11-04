@@ -1,0 +1,20 @@
+{
+  "result": true,
+  "pageLimit": 15,
+  "totalCount": "1",
+  "data": [
+    {
+      "riskscore": 0.237,
+      "signals": {"atm": 0, "dark_market": 0.011, "dark_service": 0, "exchange": 0.888, "gambling": 0, "illegal_service": 0, "marketplace": 0, "miner": 0.003, "mixer": 0.001, "payment": 0.003, "ransom": 0, "scam": 0, "stolen_coins": 0, "trusted_exchange": 0.085, "wallet": 0.008},
+      "updated_at": 1579166507,
+      "address": "3EHQZGoaM4MvjXWcaAh2SwKuc8QyhK4c6n",
+      "fiat_code_effective": "usd",
+      "blackListsConnections": false,
+      "asset": "BTC",
+      "hasBlackListFlag": false
+    }
+  ],
+  "balance": 0,
+  "discount": "5",
+  "promoFlow": false
+}

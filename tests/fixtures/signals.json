@@ -1,0 +1,9 @@
+{
+  "result": true,
+  "signalGroups": {
+    "low": ["merchant_services", "exchange", "wallet", "miner", "payment", "marketplace", "p2p_exchange", "seized_assets", "other"],
+    "middle": ["infrastructure_as_a_service", "decentralized_exchange_contract", "unnamed_service", "atm", "risky_exchange", "p2p_exchange_mlrisk_high", "liquidity_pools"],
+    "high": ["enforcement_action", "ransom", "dark_market", "dark_service", "illegal_service", "mixer", "scam", "gambling", "stolen_coins", "exchange_fraudulent", "child_exploitation", "sanctions", "terrorism_financing", "malware"]
+  },
+  "signalAssessments": {"merchant_services": 0.1, "exchange": 0.1, "wallet": 0.1, "miner": 0, "payment": 0.1, "marketplace": 0.1, "p2p_exchange": 0.1, "seized_assets": 0.1, "other": 0.1, "infrastructure_as_a_service": 0.5, "decentralized_exchange_contract": 0.5, "unnamed_service": 0.5, "atm": 0.5, "risky_exchange": 0.6, "p2p_exchange_mlrisk_high": 0.6, "liquidity_pools": 0.5, "enforcement_action": 1, "ransom": 1, "dark_market": 1, "dark_service": 1, "illegal_service": 1, "mixer": 1, "scam": 1, "gambling": 0.75, "stolen_coins": 1, "exchange_fraudulent": 1, "child_exploitation": 1, "sanctions": 1, "terrorism_financing": 1, "malware": 1}
+}

@@ -1,0 +1,58 @@
+{
+  "amlFlow": "fast",
+  "balance": 86,
+  "data": {
+    "_type": 9,
+    "address": "0xf2e8e0761df9acda6d6b67a219ce41e522647e26",
+    "addressDetailsData": {"balance_approximate": 0, "reported_balance_precision": 18},
+    "asset": "BNB",
+    "blackListsConnections": false,
+    "cost": 0,
+    "counterparty": {
+      "address": "0xf2e8e0761df9acda6d6b67a219ce41e522647e26",
+      "connections": [
+        {"entity": {"global_id": 1457, "id": 117945216, "name": "Binance", "riskscore": 0.1, "slug": "Binance", "subtype": null, "type": "exchange_licensed"}, "received": {"direct": 1782188.2404686539, "hops": 1, "total": 2322381.6594543178}, "sent": null, "type": "entity"},
+        {"entity": {"global_id": 1138, "id": 152951627, "name": "Bybit", "riskscore": 0.1, "slug": "Bybit", "subtype": null, "type": "exchange_licensed"}, "received": {"direct": 0, "hops": 2, "total": 14365.391991447796}, "sent": null, "type": "entity"},
+        {"entity": {"global_id": 3456, "id": 231934015, "name": "Stake", "riskscore": 0.75, "slug": "Stake", "subtype": null, "type": "gambling"}, "received": {"direct": 0, "hops": 2, "total": 277625.48673961987}, "sent": {"direct": 7029597.765632984, "hops": 1, "total": 7029597.765632984}, "type": "entity"},
+        {"entity": {"global_id": 10885, "id": 337374959, "name": "Transak", "riskscore": 0, "slug": "Transak", "subtype": null, "type": "payment"}, "received": {"direct": 0, "hops": 2, "total": 1506356.4246487273}, "sent": null, "type": "entity"},
+        {"entity": {"global_id": 1946, "id": 362278819, "name": "Payeer", "riskscore": 0.25, "slug": "Payeer", "subtype": "SECO, EU", "type": "wallet"}, "received": {"direct": 0, "hops": 2, "total": 7241.703456580258}, "sent": null, "type": "entity"},
+        {"entity": {"global_id": 38462, "id": 650144711, "name": "@CryptoBot", "riskscore": 0.6, "slug": "CryptoBot", "subtype": null, "type": "exchange_unlicensed"}, "received": {"direct": 0, "hops": 2, "total": 9337.471587543087}, "sent": null, "type": "entity"},
+        {"entity": {"name": "Unnamed Entities", "riskscore": null, "type": "unnamed"}, "received": {"direct": 0, "hops": null, "total": 38147.52385971043}, "sent": null, "type": "entity"}
+      ],
+      "received_fiat_amount": 8376955,
+      "sent_fiat_amount": 8443575,
+      "signals": {
+        "in": {"atm": 0, "child_exploitation": 0, "dark_market": 0, "dark_service": 0, "decentralized_exchange_contract": 0, "enforcement_action": 0, "exchange": 0.667, "exchange_fraudulent": 0, "gambling": 0.048, "illegal_service": 0, "infrastructure_as_a_service": 0, "liquidity_pools": 0.002, "malware": 0, "marketplace": 0, "merchant_services": 0, "miner": 0, "mixer": 0, "other": 0.017, "p2p_exchange": 0, "p2p_exchange_mlrisk_high": 0.008, "payment": 0.166, "ransom": 0, "risky_exchange": 0.079, "sanctions": 0.003, "scam": 0, "seized_assets": 0, "stolen_coins": 0, "terrorism_financing": 0, "unnamed_service": 0, "wallet": 0.009},
+        "out": {"atm": 0, "child_exploitation": 0, "dark_market": 0, "dark_service": 0, "decentralized_exchange_contract": 0, "enforcement_action": 0, "exchange": 0, "exchange_fraudulent": 0, "gambling": 1, "illegal_service": 0, "infrastructure_as_a_service": 0, "liquidity_pools": 0, "malware": 0, "marketplace": 0, "merchant_services": 0, "miner": 0, "mixer": 0, "other": 0, "p2p_exchange": 0, "p2p_exchange_mlrisk_high": 0, "payment": 0, "ransom": 0, "risky_exchange": 0, "sanctions": 0, "scam": 0, "seized_assets": 0, "stolen_coins": 0, "terrorism_financing": 0, "unnamed_service": 0, "wallet": 0}
+      }
+    },
+    "customerIsB2B": true,
+    "extras": {
+      "services": {
+        "malicious_event": ["Fake_Phishing", "Harmony Horizon Bridge Exploiter"],
+        "relation_info": ["OKX Web3 Wallet", "MetaMask", "amilliondollarin.eth"],
+        "use_platform": ["Binance", "CryptoBot", "stake.com"]
+      },
+      "tags": ["stake.com", "deposit"]
+    },
+    "fiat_code_effective": "usd",
+    "flow": "advanced",
+    "hasBlackListFlag": false,
+    "memo": "",
+    "network": "BSC",
+    "pdfReport": "#",
+    "reportedAddressBalance": null,
+    "riskscore": 0.63,
+    "signals": {"atm": 0, "child_exploitation": 0, "dark_market": 0, "dark_service": 0, "decentralized_exchange_contract": 0, "enforcement_action": 0, "exchange": 0.317, "exchange_fraudulent": 0, "gambling": 0.594, "illegal_service": 0, "infrastructure_as_a_service": 0, "liquidity_pools": 0.002, "malware": 0, "marketplace": 0, "merchant_services": 0, "miner": 0, "mixer": 0, "other": 0.009, "p2p_exchange": 0, "p2p_exchange_mlrisk_high": 0.005, "payment": 0.047, "ransom": 0, "risky_exchange": 0.017, "sanctions": 0.002, "scam": 0, "seized_assets": 0, "stolen_coins": 0, "terrorism_financing": 0, "unnamed_service": 0, "wallet": 0.005},
+    "status": "success",
+    "timestamp": "2025-06-20 09:08:59",
+    "uid": "6855252bbd86e138331438",
+    "updated_at": 1750410539
+  },
+  "discount": 0,
+  "discountDueTime": 0,
+  "proMode": "0",
+  "promoFlow": false,
+  "result": true,
+  "termsConfirmRequired": false
+}

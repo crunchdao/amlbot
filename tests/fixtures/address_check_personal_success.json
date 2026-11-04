@@ -1,0 +1,35 @@
+{
+  "amlFlow": "lite",
+  "balance": 268,
+  "data": {
+    "_type": 9,
+    "address": "TKaUznTRzWdjqA9wxbDHnKohrdZWfVM4cw",
+    "addressDetailsData": null,
+    "asset": "TRX",
+    "blackListsConnections": false,
+    "cost": 1,
+    "customerIsB2B": true,
+    "extras": {
+      "services": {"malicious_event": ["Guarantee Merchant"], "use_platform": ["Binance", "feee.io Rent"]},
+      "tags": []
+    },
+    "flow": "lite",
+    "hasBlackListFlag": false,
+    "memo": "",
+    "network": "TRX",
+    "pdfReport": "#",
+    "reportedAddressBalance": null,
+    "risk_score_level": "high",
+    "signalTags": ["exchange", "other", "sanctions", "unnamed_service"],
+    "status": "success",
+    "timestamp": "2026-03-30 15:59:30",
+    "uid": "69ca9de2e1dbe112038345",
+    "updated_at": 1774886474
+  },
+  "discount": 0,
+  "discountDueTime": 0,
+  "proMode": "0",
+  "promoFlow": false,
+  "result": true,
+  "termsConfirmRequired": false
+}

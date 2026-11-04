@@ -1,0 +1,20 @@
+{
+  "result": true,
+  "balance": 10,
+  "amlFlow": "fast",
+  "discount": 5,
+  "discountDueTime": 0,
+  "promoFlow": false,
+  "data": {
+    "updated_at": 1750253440,
+    "address": "0x2505C6A5eb35983C158f42e66B62697f5Fc86452",
+    "uid": "643681e610692155724223",
+    "asset": "ETH",
+    "network": "ETH",
+    "status": "pending",
+    "timestamp": "2023-04-12 10:03:18",
+    "flow": "fast",
+    "_type": 10,
+    "cost": 5
+  }
+}
