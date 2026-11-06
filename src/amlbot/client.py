@@ -457,6 +457,12 @@ class Client:
         threshold (60% by default) and not blacklisted are accepted. Notifications are delivered
         to the webhook set with :meth:`set_webhook`.
 
+        Warning:
+            Subscribing an address that is already monitored is not a no-op: its monitoring record
+            is replaced by the result of this check, and its Max Risk Score is reset. A higher risk
+            found by the monitoring rescans since is lost. Subscribe an address once, right after
+            its first check.
+
         Args:
             uid: ``uid`` of a previous address check.
 

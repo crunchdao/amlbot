@@ -368,7 +368,12 @@ class AsyncClient:
         return await self._call(core.signals(), core.parse_signal_catalog)
 
     async def subscribe_monitoring(self, uid: str) -> MonitoringPayload:
-        """Add a checked address to continuous monitoring. Returns its current risk snapshot."""
+        """Add a checked address to continuous monitoring. Returns its current risk snapshot.
+
+        Warning:
+            Subscribing an address that is already monitored resets its monitoring record, see
+            :meth:`amlbot.Client.subscribe_monitoring`.
+        """
         return await self._call(
             core.monitoring_subscribe(self._signing_credentials(), uid=uid),
             core.parse_monitoring_payload,

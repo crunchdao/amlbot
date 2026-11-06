@@ -238,6 +238,11 @@ snapshot = client.subscribe_monitoring(check.uid)
 > Only addresses below the account's risk threshold (60% by default) and not blacklisted are accepted. <br />
 > The API cannot unsubscribe or list monitored addresses: use the AMLBot web application.
 
+> [!WARNING]
+> Subscribing an address that is already monitored is not a no-op. <br />
+> Its monitoring record is replaced by the result of the subscribed check, and its Max Risk Score is reset: a higher risk found by the monitoring rescans since is lost. <br />
+> Subscribe an address once, right after its first check, and do not subscribe it again with an older check.
+
 ### Set the Webhook URL
 
 ```python
